@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.mainnav {
+  background: #262626;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.insetnav ul {
+  margin-right: 50px;
+  margin-top: 35px;
+}
+
+.insetnav ul li {
+  float: right;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border: 2px;
+  margin-top: 0px;
+  background-color: #1a1a1a;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  margin-left: 50px;
+  float: left;
+}
+
+section h1 {
+  font-size: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: arial;
+}
+
+section h3 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.box-one {
+  float: left;
+  height: 300px;
+  background-color: #D6D6D6;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #868686;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.box-one h1{
+  font-style: italic;
+}
+
+.box-one a {
+  color: #eb8028;
+  float: right;
+  margin-right: 10px;
+}
+
+.box-two {
+  float: right;
+  width: 60%;
+  height: 300px;
+  background-color: #c1c1c1;
+  margin-top: 10px;
+  margin-right: 50px;
+  color: #838383;
+  text-align: center;
+}
+
+.box-two h1 {
+  font-size: 120px;
+}
+
+.box-three {
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #868686;
+  text-align: left;
+  padding-top: 20px;
+
+}
+
+.fourandfive {
+  float: right;
+  width: 60%;
+  height: 100%;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  color: #838383;
+  text-align: center;
+}
+
+.box-four {
+   float: left;
+  max-height: 100%;
+  width: 48.5%;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #868686;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.box-five {
+  float: right;
+  max-height: 100%;
+  width: 48.5%;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #868686;
+  text-align: left;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-right: 8px;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    background-color: #1a1a1a;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 2px;
+    color: white;
+    margin-top: 15px;
+}
+
+div a {
+  color: #D37130;
+  text-decoration: none;
+  float: right;
+}
